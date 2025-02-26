@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="image-section">
+            <img src="/night-landscape 1.png" alt="Illustration">
+        </div>
+        <div class="form-section">
+            <h1>Create an account</h1>
+            <p>Already have an account? <a href="#" class="link">Log in</a></p>
+
+            <form action="/">
+                <div class="input-box">
+                    <input type="text" name="firstname" id="firstName" placeholder="Firstname" class="">
+                    <p class="alert" id="errorFirstName"></p>
+                </div>
+
+                <div class="input-box">
+                    <input type="text" name="lastname" placeholder="Lastname" id="lastName">
+                    <p class="alert">Test alert</p>
+                </div>
+
+
+                <div class="input-box">
+                    <input type="email" name="email" placeholder="Email" id="email">
+                    <p class="alert">Test alert</p>
+                </div>
+
+                <div class="input-box">
+                    <input type="password" name="password" placeholder="Enter your password" id="password">
+                    <p class="alert">Test alert</p>
+                </div>
+
+                <div class="checkbox">
+                    <input type="checkbox" id="terms" required>
+                    <label for="terms">I agree to the <a href="#" class="link">terms & conditions</a></label>
+                </div>
+
+                <button type="submit" id="submitBtn">Create account</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
