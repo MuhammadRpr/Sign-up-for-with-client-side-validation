@@ -21,7 +21,7 @@ function HandleClick(event) {
 
         document.querySelector(".form-section").innerHTML = `
             <h2>Tyy bet! ${firstName} ${lastName}</h2>
-            <p>Contoh orang yang selamat dari kiamat tahun 2012 ${email}</p>
+            <p>${email} adalah Contoh orang yang selamat dari kiamat tahun 2012 </p>
         
         `
     }
